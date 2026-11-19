@@ -165,6 +165,15 @@ namespace Ride.Examples
                 foreach (Transform child in category)
                     if (child.TryGetComponent(out MecanimCharacter mc))
                         m_characters.Add(mc);
+#if UNITY_WEBGL && !UNITY_EDITOR
+            // Hosted assets are restricted to these two characters; don't select Kevin
+            // on startup or offer characters whose bundles aren't shipped.
+            foreach (var character in m_characters)
+                character.gameObject.SetActive(character.name == "ccMaria");
+            m_characters.RemoveAll(c => c.name != "ccMaria" && c.name != "ccMaleMiddleEasternRetired");
+            m_selectableCharacters = m_characters.ToList();
+            m_currentCharacterIndex = Mathf.Max(0, m_selectableCharacters.FindIndex(c => c.name == "ccMaria"));
+#endif
         }
 
         /// <summary>

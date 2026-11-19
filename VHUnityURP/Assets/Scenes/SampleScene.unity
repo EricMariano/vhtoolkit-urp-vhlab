@@ -521,7 +521,7 @@ PrefabInstance:
     - target: {fileID: 8733232261636766170, guid: ec8dafeb11b0e614d887c5c050e1542f,
         type: 3}
       propertyPath: m_catalogsToLoad.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8733232261636766170, guid: ec8dafeb11b0e614d887c5c050e1542f,
         type: 3}
@@ -540,6 +540,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8733232261636766170, guid: ec8dafeb11b0e614d887c5c050e1542f,
         type: 3}
+      propertyPath: m_catalogsToLoad.Array.data[3].isRemote
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733232261636766170, guid: ec8dafeb11b0e614d887c5c050e1542f,
+        type: 3}
+      propertyPath: m_catalogsToLoad.Array.data[4].isRemote
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733232261636766170, guid: ec8dafeb11b0e614d887c5c050e1542f,
+        type: 3}
       propertyPath: m_catalogsToLoad.Array.data[0].catalogPath
       value: ride-content-e22e17c3/AssetCatalogs/VH/Kevin
       objectReference: {fileID: 0}
@@ -552,6 +562,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_catalogsToLoad.Array.data[2].catalogPath
       value: ride-content-e22e17c3/AssetCatalogs/VH/Rocketbox
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733232261636766170, guid: ec8dafeb11b0e614d887c5c050e1542f,
+        type: 3}
+      propertyPath: m_catalogsToLoad.Array.data[3].catalogPath
+      value: ride-content-e22e17c3/AssetCatalogs/VH-Internal/Maria
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733232261636766170, guid: ec8dafeb11b0e614d887c5c050e1542f,
+        type: 3}
+      propertyPath: m_catalogsToLoad.Array.data[4].catalogPath
+      value: ride-content-e22e17c3/AssetCatalogs/VH-Internal/Rashid
       objectReference: {fileID: 0}
     - target: {fileID: 8733232261636766170, guid: ec8dafeb11b0e614d887c5c050e1542f,
         type: 3}

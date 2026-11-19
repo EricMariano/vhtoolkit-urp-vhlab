@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -746,7 +746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: River - Relaxed, Neutral, Informative
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -2069,7 +2069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Ruth
   ElevenLabVoiceName: Lily - Velvety Actress
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -2749,7 +2749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Liam - Energetic, Social Media Creator
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -3624,7 +3624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -4272,7 +4272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -4918,7 +4918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Joanna
   ElevenLabVoiceName: Sarah - Mature, Reassuring, Confident
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -5589,7 +5589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -6237,7 +6237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -6885,7 +6885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Ruth
   ElevenLabVoiceName: Lily - Velvety Actress
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -7533,7 +7533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -8181,7 +8181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -8829,7 +8829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -9857,7 +9857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -10506,7 +10506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Danielle
   ElevenLabVoiceName: Matilda - Knowledgable, Professional
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -11140,7 +11140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -11789,7 +11789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Matthew
   ElevenLabVoiceName: Chris - Charming, Down-to-Earth
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -12427,7 +12427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -13248,7 +13248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Matthew
   ElevenLabVoiceName: Chris - Charming, Down-to-Earth
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -13885,7 +13885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Ruth
   ElevenLabVoiceName: Lily - Velvety Actress
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -14533,7 +14533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -15181,7 +15181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Ruth
   ElevenLabVoiceName: Lily - Velvety Actress
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -16515,7 +16515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Ruth
   ElevenLabVoiceName: Bella - Professional, Bright, Warm
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -17190,7 +17190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Ruth
   ElevenLabVoiceName: Lily - Velvety Actress
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -17838,7 +17838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -18484,7 +18484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Will - Relaxed Optimist
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -19153,7 +19153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Danielle
   ElevenLabVoiceName: Jessica - Playful, Bright, Warm
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -20045,7 +20045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -20752,7 +20752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -21400,7 +21400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Ruth
   ElevenLabVoiceName: Lily - Velvety Actress
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -22048,7 +22048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Ruth
   ElevenLabVoiceName: Lily - Velvety Actress
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -22696,7 +22696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Ruth
   ElevenLabVoiceName: Lily - Velvety Actress
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Kore
@@ -23342,7 +23342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Will - Relaxed Optimist
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -24017,7 +24017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -24665,7 +24665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Daniel - Steady Broadcaster
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -25311,7 +25311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: IMan - Iranian Male
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck
@@ -25986,7 +25986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PollyVoiceName: Stephen
   ElevenLabVoiceName: Erik - Warm, Friendly and Clear
-  PiperVoiceName: en_US-lessac-medium
+  PiperVoiceName: pt_BR-faber-medium
   KokoroVoiceName: af_heart
   XTTSVoiceName: Ana Florence
   GeminiVoiceName: Puck

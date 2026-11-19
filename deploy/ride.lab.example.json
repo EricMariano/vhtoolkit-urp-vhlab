@@ -1,0 +1,9 @@
+{
+  "openAIChatGPT": {
+    "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+    "endpointKey": "REPLACE_WITH_LAB_TOKEN"
+  },
+  "restApi": {
+    "openAIProxyEndpoint": "https://avatar.example.org/api/openai/chat"
+  }
+}

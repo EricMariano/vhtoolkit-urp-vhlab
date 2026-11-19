@@ -305,9 +305,9 @@
       "hash": "6daea6a891764eeede4f82cc73289d1d973b22e8"
     },
     "edu.usc.ict.ride.core": {
-      "version": "https://github.com/USC-ICT/ride.git?path=/Ride/RideUnity/Packages/edu.usc.ict.ride.core#6daea6a891764eeede4f82cc73289d1d973b22e8",
+      "version": "file:edu.usc.ict.ride.core",
       "depth": 0,
-      "source": "git",
+      "source": "embedded",
       "dependencies": {
         "com.unity.addressables": "1.21.8",
         "com.unity.ai.navigation": "2.0.0",
@@ -316,8 +316,7 @@
         "edu.usc.ict.ride.vendor.milsymbol": "1.0.10476",
         "edu.usc.ict.ride.vendor.vhassets": "1.0.10476",
         "edu.usc.ict.ride.abstract": "1.0.10610"
-      },
-      "hash": "6daea6a891764eeede4f82cc73289d1d973b22e8"
+      }
     },
     "edu.usc.ict.ride.core.ui": {
       "version": "https://github.com/USC-ICT/ride.git?path=/Ride/RideUnity/Packages/edu.usc.ict.ride.core.ui#6daea6a891764eeede4f82cc73289d1d973b22e8",

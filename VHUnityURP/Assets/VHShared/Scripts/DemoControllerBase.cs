@@ -285,6 +285,19 @@ namespace Ride.Examples
             m_elevenTextToSpeechSystem = Systems.Get<TextToSpeechSystemElevenLabs>();
             m_awsPollyTextToSpeechSystem = Systems.Get<TextToSpeechSystemAWSPolly>();
             m_piperTextToSpeechSystem = Systems.Get<TextToSpeechSystemPiper>();
+            // The local Unity relay occupies Piper's upstream default port (9002).
+            // Point the local service at 9003 until RIDE exposes endpoint configuration.
+            if (m_piperTextToSpeechSystem != null)
+            {
+                var endpoint = typeof(TextToSpeechSystemPiper).GetField("m_endpoint",
+                    System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
+                if (endpoint != null)
+                {
+                    endpoint.SetValue(m_piperTextToSpeechSystem, "http://127.0.0.1:9003");
+                    StartCoroutine(RefreshLocalPiperVoices());
+                }
+                else Debug.LogWarning("Could not configure the local Piper endpoint.");
+            }
             m_kokoroTextToSpeechSystem = Systems.Get<TextToSpeechSystemKokoro>();
             m_xttsTextToSpeechSystem = Systems.Get<TextToSpeechSystemXTTS>();
             m_geminiTextToSpeechSystem = Systems.Get<TextToSpeechSystemGemini>();
@@ -316,8 +329,8 @@ namespace Ride.Examples
             else                         m_currentLLM = m_claudeSystem;
             m_currentScripted = m_lexSystem;
             ChangeNlp(NlpMode.ChatGPT);
-            if (m_elevenTextToSpeechSystem != null) ChangeTts(TtsMode.ElevenLabs);
-            else if (m_piperTextToSpeechSystem != null) ChangeTts(TtsMode.Piper);
+            if (m_piperTextToSpeechSystem != null) ChangeTts(TtsMode.Piper);
+            else if (m_elevenTextToSpeechSystem != null) ChangeTts(TtsMode.ElevenLabs);
             else if (m_kokoroTextToSpeechSystem != null) ChangeTts(TtsMode.Kokoro);
             else if (m_xttsTextToSpeechSystem != null) ChangeTts(TtsMode.XTTS);
             else                                    ChangeTts(TtsMode.Polly);
@@ -621,6 +634,16 @@ namespace Ride.Examples
         /// </summary>
         /// <param name="response">The response text to handle.</param>
         public void SendResponse(string response) => OnNlpResponseReceived(response);
+
+        private IEnumerator RefreshLocalPiperVoices()
+        {
+            // Let a startup request to the old endpoint finish before retrying on the new one.
+            while (!m_piperTextToSpeechSystem.VoicesResolved) yield return null;
+            m_piperTextToSpeechSystem.RefreshVoices();
+            while (!m_piperTextToSpeechSystem.VoicesResolved) yield return null;
+            if (m_ttsMode == TtsMode.Piper)
+                SetCharacterVoice(m_piperTextToSpeechSystem, m_currentCharacter);
+        }
 
         /// <summary>
         /// Changes the active TTS system and sets the voice for the current character.

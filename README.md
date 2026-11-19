@@ -1,5 +1,11 @@
 # Virtual Human Toolkit
 
+Para preparar este fork no computador Windows do laboratório, consulte
+[Preparação do VHLab no Windows](deploy/README.md).
+
+Para publicar o WebGL com os personagens na própria hospedagem, consulte
+[WebGL com personagens na mesma hospedagem](deploy/WEBGL.md).
+
 **Any Character, Any Technology, Anywhere.**
 
 Create conversational 3D characters for web, mobile, AR/VR, and desktop.

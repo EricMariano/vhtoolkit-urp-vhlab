@@ -481,7 +481,11 @@ namespace Ride.Examples
             if (category == null)
                 return System.Array.Empty<MecanimCharacter>();
 
-            return category.GetComponentsInChildren<MecanimCharacter>(true);
+            var characters = category.GetComponentsInChildren<MecanimCharacter>(true);
+#if UNITY_WEBGL && !UNITY_EDITOR
+            characters = characters.Where(c => c.name == "ccMaria" || c.name == "ccMaleMiddleEasternRetired").ToArray();
+#endif
+            return characters;
         }
 
         /// <summary>
@@ -493,6 +497,9 @@ namespace Ride.Examples
 
         void DrawCharacterGroup(string label, MecanimCharacter[] group)
         {
+#if UNITY_WEBGL && !UNITY_EDITOR
+            group = group.Where(c => c.name == "ccMaria" || c.name == "ccMaleMiddleEasternRetired").ToArray();
+#endif
             if (group.Length == 0) return;
 
             //m_debugMenu.Label(label);
